@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    
+<head>
+    <title>Jeffry Star Cosmetics Online Shop </title>
+    <script src="M1-D7.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Italianno&family=Jim+Nightshade&family=Lato:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+    <header id= "header" onclick="makeItClickable()">
+      <h1 class="h1element" onmouseover="addClassToTitle()" onmouseout="removeClassFromTitle()">Jeffry Star Cosmetics</h1>
+      </header>
+      <div id="top_products">
+        <h2>Our best sellers</h2>
+        <table id="prod_table" onmouseenter="makeThemMagnifiable(event)" onmouseleave="makeThemNormal(event)">
+          <tr>
+            <th >Product name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th> Links </th>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/61K55YYhJ3L._AC_UY218_.jpg" 
+              alt="Eyeshadow Palette"> Blood Lust Palette </td>
+            <td>A Palette of 20 shades of eye shadow with some blue mattes and shimmers </td>
+            <td>€138.00 + FREE Shipping</td>
+            <td><input type="button" onclick="location.href='https://www.amazon.de/-/en/JEFFREE-STAR-BLOOD-LUST-PALETTE/dp/B08527LMDY/ref=sr_1_3?crid=29CB03GUJZPE5&dchild=1&keywords=jeffrey+star+asche&qid=1601908714&sprefix=jeffrey+star+cre%2Cdigital-text%2C212&sr=8-3'"
+            value="Amazon Link" target="_blank"/></td>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/51Jb7jnnzKL._AC_UY218_.jpg" 
+              alt="Eyeshadow Palette"> Artistry Palette</td>
+            <td>A Palette of 20 shades of eye shadow with some warm colors mattes and shimmers </td>
+            <td>€54.50 + FREE Shipping</td>
+            <td><input type="button" onclick="location.href='https://www.amazon.de/-/en/Exclusive-Morphe-Jeffree-Artistry-Palette/dp/B07XM95GNT/ref=sr_1_6?crid=29CB03GUJZPE5&dchild=1&keywords=jeffrey+star+asche&qid=1601908714&sprefix=jeffrey+star+cre%2Cdigital-text%2C212&sr=8-6'"
+              value="Amazon Link" target="_blank"/></td>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/71o4bucqctL._AC_UY218_.jpg" 
+              alt="Eyeshadow Palette"> Beauty Killer Palette </td>
+            <td>A Palette of 20 shades of eye shadow with some mattes and shimmers </td>
+            <td>€73.00 + FREE Shipping</td>
+            <td><input type="button" onclick="location.href='https://www.amazon.de/-/en/Jeffree-Beauty-Killer-Eyeshadow-Palette/dp/B01GB2YREA/ref=sr_1_9?crid=29CB03GUJZPE5&dchild=1&keywords=jeffrey+star+asche&qid=1601908714&sprefix=jeffrey+star+cre%2Cdigital-text%2C212&sr=8-9'"
+              value="Amazon Link" target="_blank"/></td>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/41cRnCLB4aL._AC_UY218_.jpg" 
+              alt="Highlighter"> Skin Frost Highlighter</td>
+            <td>A white shimmering Highlighter that would even brighten up your future</td>
+            <td>€59.00 + FREE Shipping</td>
+            <td><input type="button" onclick="location.href='https://www.amazon.de/-/en/Jeffree-Star-Skin-Frost-Princess/dp/B01N2PIXT0/ref=sr_1_14?crid=29CB03GUJZPE5&dchild=1&keywords=jeffrey+star+asche&qid=1601908714&sprefix=jeffrey+star+cre%2Cdigital-text%2C212&sr=8-14'"
+              value="Amazon Link" target="_blank"/></td>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/81F2vLNVTIL._AC_UY218_.jpg" 
+              alt="Eyeshadow Palette"> Mini Breaker Palette </td>
+            <td>A Palette of 9 shades of eye shadow with some mattes and shimmers</td>
+            <td>€49.29 + FREE Shipping</td>
+            <td><input type="button" onclick="location.href='https://www.amazon.de/-/en/Jeffree-Star-Breaker-Eyeshadow-Palette/dp/B07TWHWCGD/ref=sr_1_4?crid=29CB03GUJZPE5&dchild=1&keywords=jeffrey+star+asche&qid=1601908714&sprefix=jeffrey+star+cre%2Cdigital-text%2C212&sr=8-4'"
+              value="Amazon Link" target="_blank"/></td>
+          </tr>
+        </table>
+
+      </div>
+      <div id=map> 
+        <h3>Map to our store</h3>
+        <iframe id=mapframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.3197600372728!2d-0.007497484417980231!3d51.54403537964112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d646f76f141%3A0xea8a03aa08f5f286!2sWestfield%20Stratford%20City!5e0!3m2!1sen!2sde!4v1601916827892!5m2!1sen!2sde" 
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" 
+        tabindex="0" ></iframe>
+      </div>
+
+      <form id="form_message">
+        <lable fro="name">First name</lable>
+        <input name="name" id="name" type="text" placeholder="First Name" required><br>
+        <lable fro="surname">Last name</lable>
+        <input name="surname" id="surname" type="text" placeholder="Last Name" required><br>
+        <lable fro="email">E-mail</lable>
+        <input name="email" id="email" type="email" placeholder="example@example.com" required><br>
+        <textarea id="message" placeholder="Write us a message" type="message"></textarea>
+        <button>Send</button>
+      </form>
+    </main>
+    <footer> 
+      <h4>Morphy UK</h4>
+      <p id='address' >Westfield stratford city, 
+        Montfichet Rd, 
+        London E20 1EJ, United Kingdom</p>
+    </footer>
+    <section id="homeworkDay7">
+        <h2 id="listTitle">Todo List</h2>
+        <ul id="firstList">
+            <li>1st</li>
+            <li>2nd</li>
+            <li>3rd</li>
+        </ul>
+        <ul id="secondList">
+            <li>1st</li>
+            <li>2nd</li>
+            <li>3rd</li>
+        </ul>
+        <div>
+            <p>This text is just for the exercise</p>
+        </div>
+        <div id="buttonsTextArea">
+          <textarea id="textArea" placeholder="write text and choose button"></textarea>
+          <button id="Ex4" onclick="changeText()">Change text of p inside div</button>
+          <button id="Ex5" onclick="changeListTitle()">Change list title </button>
+          <button id="Ex6" onclick="addToTheSecond()">Add list item to second list</button>
+          <button id="Ex7" onclick="firstUlDisappear()">Delete First list </button>
+          <button id="Ex8" onclick="paintItGreen()">Paint Green the lists</button>
+          <button id="Ex10" onclick="toggleShowImages()"> Toggle or Show Image</button>
+        </div>
+    </section>  
+</body>
+
+  <style>
+    *{
+      margin:0px;
+      padding:5px;
+      
+    }
+    body{
+      display: flex;
+      flex-flow: column;
+      width: 1000px;
+      font-size: medium;
+      text-align: center;
+      margin-left: 150px;
+      background-color: rgb(222, 211, 217);
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+    }
+    #message {
+      height: 200px;
+      width: 300px;
+      vertical-align: top;
+    }
+    #form_message{
+      display: flex;
+      flex-flow: column;
+      justify-content: left;
+      width: 300px;
+      text-align: left;
+    }
+    .red-color {
+        color: 'red';
+    }
+</style>
+
+</html>
